@@ -3,7 +3,7 @@ using namespace std;
 
 void addEdge(vector<int> adj[] , int i , int j)
 {
-    adj[i].push_back(j); //making the links aas undirected graph
+    adj[i].push_back(j); //making the links as undirected graph
     adj[j].push_back(i);
 }
 
