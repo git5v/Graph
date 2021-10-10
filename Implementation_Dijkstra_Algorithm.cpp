@@ -1,3 +1,5 @@
+//It works on directed as well as undirected graph without negative weigths
+
 vector <int> dijkstra(int V, vector<vector<int>> adj[], int s)
     {
         // Code here
