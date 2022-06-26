@@ -1,6 +1,6 @@
 class Solution {
     private:
-    void dfs(int i,vector<vector<int>> &adj,vector<int> &vis)
+    void dfs(int i,vector<vector<int>> &adj,vector<int> &vis) // DFS on adjacency matrix 
     {
         vis[i] = 1;
         for(int ii=0;ii<adj[i].size();ii++)
