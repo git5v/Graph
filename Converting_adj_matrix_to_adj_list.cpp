@@ -14,7 +14,7 @@ void fun(vector<vector<int>> &matrix)
   {
     cout<<i<<"->";
     for(auto &it:adj_list[i])
-      cout<<it<< " ";
+      cout<<it.first<< " "<<it.second;
   }
   cout<<endl;
   }
