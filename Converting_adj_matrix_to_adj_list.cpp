@@ -12,7 +12,7 @@ void fun(vector<vector<int>> &matrix)
    //For printing adj list
   for(int i=0;i<n;i++)
   {
-    cout<<i->;
+    cout<<i<<"->";
     for(auto &it:adj_list[i])
       cout<<it<< " ";
   }
