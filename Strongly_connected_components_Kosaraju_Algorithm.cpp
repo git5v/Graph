@@ -30,7 +30,7 @@ void solve()
 	int n, m;
 	cin >> n >> m; // nodes and edges
 	vector<int> adj[n + 1];
-	for (int i = 0; i < m; i++)
+	for (int i = 0; i < m; i++) 
 	{
 		int u, v;
 		cin >> u >> v;
